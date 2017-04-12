@@ -1,0 +1,25 @@
+viper head
+	main is
+
+		@_base : integer;
+		@_limit : integer;
+		@_i : integer = 0;
+
+		out("enter base number:");
+		in(@_base);
+
+		out("enter limit number:");
+		in(@_limit);
+
+		while (@_base != @_limit) {
+		   @_i++;
+  		}
+
+  		if (@_limit == @_base) {
+     		   out("Success");
+  		} elsif ( @_limit > @_base ) {
+     		   @_base = 5;
+  		}
+
+	end
+tail

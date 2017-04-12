@@ -1,0 +1,15 @@
+viper head
+   main is
+      @base: integer;
+      @abc: real;
+	  @data: integer;
+      
+      @base = 2;
+      @abc = @b + 0.3;
+	  if (@_limit == @_base) {
+     	out("Success");
+  	  } elsif ( @_limit > @_base ) {
+		@_base = 5;
+  	  }
+	end
+tail

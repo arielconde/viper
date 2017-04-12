@@ -1,0 +1,12 @@
+# THIS IS A VIPER PROGRAM # ~ COMMENT ~ 1
+viper ~ VIPER ~ 3
+head ~ HEAD ~ 3
+mein ~ INVALID_LEXEME ~ 4
+is ~ IS ~ 4
+in ~ IN ~ 5
+( ~ L_PAREN ~ 5
+@identifier ~ VAR_ID ~ 5
+) ~ R_PAREN ~ 5
+; ~ SCOLON ~ 5
+and ~ INVALID_LEXEME ~ 6
+tail ~ TAIL ~ 7

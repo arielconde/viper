@@ -1,0 +1,22 @@
+-> START
+--> VIPER
+--> HEAD
+--> MAIN
+--> IS
+--> STMT
+--> END
+--> FUNCTION
+--> TAIL
+=> VIPER viper
+=> HEAD head
+=> MAIN main
+=> IS is
+-> STMT
+--> VAR_ID
+--> STMT2
+=> VAR_ID @prod_price
+-> STMT2
+--> COLON
+--> DATA_TYPE
+--> STMT3
+=> COLON :

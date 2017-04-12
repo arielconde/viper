@@ -1,0 +1,5 @@
+viper head
+   main is
+      @base: integer;
+   end
+tail

@@ -1,0 +1,18 @@
+viper head
+   main is
+      @base: integer;
+      @abc: real;
+	  @data: integer;
+      
+      @base = 2;
+      @abc = @b + 0.3;
+	  
+	  if(@data % 2 == 0) {
+	
+			out(@data);
+	 }
+		else {
+			out("pak ganern");
+		}
+	end
+tail

@@ -1,0 +1,83 @@
+viper head
+	main is
+		@prod_price : ;
+		@sales_comm : real;
+		@custm_disc : real;
+		
+		out("Product price: ");
+		in();
+
+		out("Salesperson commission: ")
+		in(@sales_comm);
+		
+		out("Customer discount (%): ");
+		in(@custm_disc);
+		
+		@value : real;
+		$final_price(@prod_price, @sales_comm, @custm_disc);
+		
+		@varctr : integer;
+		@subctr : integer;
+		@varlimit : integer = ;
+		@varbase : integer = 10;
+		
+		for (@varctr = 0 to @varlimit) {
+			for (@subctr = 69 downto @varbase) {
+				out(@subctr);
+				if (@subctr % @varctr) {
+					out("eto yon", @subctr);
+				}
+			}
+		}
+		
+		while (@varctr != 20) {
+			@number : integer;
+			in(@number);
+			out(@varctr);
+			
+			@varctr++;
+		}
+		
+		@data : integer;
+		@data = 0a;
+		
+		do {
+			if() {
+				out(@data);
+			}
+			elsif(@data % 2 != 0) 
+				out(@data);
+			}
+			else 
+				out("pak ganern");
+			}
+		} while (@data < 69);
+		
+	end
+
+	
+	$final_price (@pr : real, @comm : real, @discount : real) returns void is
+		@price : real;
+
+		@comm = ;
+		out("Commission: ", @comm);
+
+		@comm2 : real;
+		@comm2 = @comm * @pr;
+		out("Comission value: ", @comm2);
+
+		@discount = @discount / 100;
+
+		out("Discount: ", @discount);
+		
+		@discount2 : real;
+		@discount2 = @discount * @comm2 + @pr ;
+
+		out("Discount value: ", @discount2);
+
+		@price = @pr + @comm2 - @discount2;
+
+		out("Final price is: ", @price);
+	end
+	
+tail

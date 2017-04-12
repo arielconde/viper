@@ -1,0 +1,10 @@
+viper ~ VIPER ~ 1
+head ~ HEAD ~ 1
+main ~ MAIN ~ 2
+is ~ IS ~ 2
+@base ~ VAR_ID ~ 3
+: ~ COLON ~ 3
+integer ~ INT ~ 3
+; ~ SCOLON ~ 3
+end ~ END ~ 4
+tail ~ TAIL ~ 5
